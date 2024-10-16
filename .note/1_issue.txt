@@ -1,0 +1,28 @@
+Para asegurarte de que la rama principal de tu repositorio local llamada bedu_main 
+tenga el mismo nombre en tu repositorio de GitHub, sigue estos pasos
+
+1. Verifica tu rama local
+Asegúrate de que estás en la rama bedu_main. Puedes verificarlo con el siguiente comando:
+$ git branch
+
+2. Empuja la rama al repositorio remoto
+Si bedu_main no existe en GitHub, simplemente empújala al remoto:
+
+$ git push -u origin bedu_main
+
+3. Cambia la rama predeterminada en GitHub
+Ve a tu repositorio en GitHub.
+Haz clic en Settings (Configuración).
+En la sección Branches (Ramas), busca la opción Default branch (Rama predeterminada).
+Cambia la rama predeterminada a bedu_main.
+
+4. (Opcional) Eliminar la rama anterior
+Si tenías una rama predeterminada anterior (como main o master) y ya no la necesitas, 
+puedes eliminarla con:
+
+$ git push origin --delete main  # O la rama que ya no necesites
+
+Resumen
+Con estos pasos, habrás asegurado que tu rama principal bedu_main en tu repositorio 
+local esté también en GitHub y sea la rama predeterminada. Si necesitas más asistencia 
+o información, ¡no dudes en preguntar!

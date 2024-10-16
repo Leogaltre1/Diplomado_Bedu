@@ -1,0 +1,48 @@
+$ git add .
+warning: in the working copy of '.note/1_issue.txt', LF will be 
+replaced by CRLF the next time Git touches it
+
+El aviso que estás viendo, LF will be replaced by CRLF, indica 
+que Git ha detectado un cambio en el tipo de final de línea en 
+el archivo. Este mensaje se produce generalmente cuando estás 
+trabajando en un sistema operativo que utiliza CRLF (Carriage 
+Return + Line Feed, como Windows) en lugar de LF (Line Feed, 
+como Unix/Linux).
+
+Opciones para manejar el aviso
+Configurar Git para manejar los finales de línea: Puedes ajustar 
+la configuración de Git para manejar los finales de línea 
+automáticamente. Aquí tienes algunas configuraciones comunes:
+
+> Para convertir LF a CRLF al hacer checkout en Windows y mantener 
+LF en el repositorio, ejecuta:
+$ git config --global core.autocrlf true
+
+> Si estás en un entorno Unix/Linux y quieres mantener LF en todos 
+los sistemas, ejecuta:
+$ git config --global core.autocrlf input
+
+> Si quieres desactivar la conversión de finales de línea (no 
+recomendado generalmente), puedes ejecutar:
+
+$ git config --global core.autocrlf false
+
+> Forzar la conversión: Si prefieres que todos los archivos tengan 
+finales de línea LF en tu repositorio, puedes convertir los 
+archivos existentes:
+
+Usa el siguiente comando para convertir los finales de línea de 
+todos los archivos de texto:
+
+$ git add --renormalize .
+Luego, haz un commit:
+
+$ git commit -m "Normalize line endings"
+
+> Ignorar el aviso: Si no te importa que los finales de línea 
+cambien y estás de acuerdo con lo que Git está haciendo, 
+puedes simplemente ignorar el aviso.
+
+Resumen
+Este aviso es solo una advertencia sobre cómo Git manejará los 
+finales de línea, y puedes ajustarlo según tus necesidades.

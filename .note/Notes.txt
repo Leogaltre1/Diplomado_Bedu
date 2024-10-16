@@ -1,0 +1,20 @@
+
+=======================================
+Make a git push from a local repository
+=======================================
+
+1. Create a local repository
+2. Be sure you have all with commit 
+$ git remote add origin <https://...>
+$ git push -u origin <name_branch_main>
+
+=======================================
+Copy from a Github Repository to other 
+=======================================
+
+1. git clone URL
+
+
+
+
+1. Copiar un Repositorio en la Nube a un Repositorio local
