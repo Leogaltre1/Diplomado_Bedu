@@ -1,0 +1,19 @@
+
+======================================================================================================================================================
+Reto 05 - Cambia los colores
+======================================================================================================================================================
+Objetivos
+Usar propiedades de CSS para dar estilo a varios componentes de texto.
+Aprender a usar CSS para centrar elementos en la página.
+Desarrollo
+Los colores que van a aplicar son los siguientes:
+
+Texto que va debajo del título: #46484c
+Texto promocional: #8b8b8bcc
+Texto del botón: #fff
+
+Ahora te toca buscar en Google, ¿cómo puedes agregar una hoja de estilos a tu proyecto? ¿Qué propiedad usarías para cambiar el color de fondo? ¿Qué selector usarías para cambiar el color de fondo de toda la página?
+
+Color de fondo de la página: #fffbf7
+Color de fondo del botón: #025157
+======================================================================================================================================================

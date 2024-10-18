@@ -1,0 +1,63 @@
+/*
+ 
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf=8">
+                <title>PageName</title>
+                <link rel"stylesheet" href="Reto 04.css">
+        </head>
+        <body>
+                <header>
+                        <h1>The best Image you have ever seen before</h1>
+                        <img src="Yo.png" width="150">
+                </header>
+                <main>
+                        <section>
+                                <p>Hello Everyone</p>
+				<button name="button">Click on me</button>
+                        </section>
+                </main>
+                <article>
+                        <!-- h2 Main <main> == h1 <article> -->
+                </article>
+                <footer>
+                        <p>&copy</p>
+                </footer>
+        </body>
+</html>
+
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font: normal normal bold 22px / 40px Montserrat;
+  color: #67737a;
+}
+
+html {
+	font-family: "Montserrat";
+}
+
+body {
+	background-color: black;	
+}
+
+header {
+	background-color: white;
+}
+
+h1 {
+	color: Blue;
+	text-align: center;
+}
+
+button {
+	color: white;
+	background-color: green;
+}
+

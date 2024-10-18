@@ -1,0 +1,13 @@
+
+======================================================================================================================================================
+Reto 01 - Etiquetas con diferente peso jerárquico
+======================================================================================================================================================
+Objetivos
+Agregar textos con diferentes niveles de jeraquía.
+
+Desarrollo
+La principal diferencia para un elemento <h1> es el peso semántico que le queremos dar al texto. Si el texto que queremos mostrar no es necesariamente diferente a cualquier otro texto que tengamos en la web, probablemente un párrafo <p> funcione bien y luego podríamos cambiar su apariencia para darle los efectos visuales deseados. Sin embargo, si deseamos resaltar dicho texto sobre otros existentes, podemos usar un encabezado para darle una jerarquía y diferenciarlo de los demás.
+
+Vamos a insertar el texto que se encuentra debajo de la frase "Construye tu blog...". ¡Adelante!
+
+======================================================================================================================================================
