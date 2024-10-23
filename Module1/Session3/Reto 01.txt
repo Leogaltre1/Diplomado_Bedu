@@ -17,3 +17,21 @@ Sube los cambios a github de esta rama
 Jala los cambios con git pull de la rama task/001/changeBkcolor a develop
 Sube tus cambios a Github
 ======================================================================================================================================================
+
+Procedure - All this next lines since here was applied in branch develop first
+
+git switch main
+> Create file ---> Bedu/Module1/Session3/Reto\ 01.css
+git add Reto\ 01.css
+git commit -m "Just a Test"
+
+git switch -c develop
+git checkout -b task/001/changeBckcolor
+> Modify ---> Bedu/Module1/Session3/Reto\ 01.css
+git add Reto\ 01.css
+git commit -m "Change it apply on Reto 01.css"
+
+git push -u origin task/001/changeBckcolor
+git switch develop
+git pull origin task/001/changeBckcolor
+git switch main
