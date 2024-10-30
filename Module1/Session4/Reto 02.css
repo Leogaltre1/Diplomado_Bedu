@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font: normal normal bold 22px / 40px Montserrat;
+  color: #67737a;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    background-color: #f0f0f0;
+    font-family: 'Montserrat';
+}
+
+/*
+#container {
+    margin: 0 auto;
+    padding: 20px;
+    width: 120rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 12rem repeat(3, 1fr);
+}*/
+
+#top {
+    /*grid-column: 1/3;
+    grid-row: 1/2;
+    height: 12rem;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+#top > h1 {
+    padding: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+#top > div {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#top > div > img { /* Clave del Ajuste de la imagen en el container*/
+    width: 100%;
+    height: 100%;
+}
