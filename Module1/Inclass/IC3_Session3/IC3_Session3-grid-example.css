@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font: normal normal bold 22px / 40px Montserrat;
+  color: #67737a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+}
+
+#header > nav{
+    display: flex;
+    justify-content: center;
+}
+
+#header > nav > a{
+    font-weight: 600; /*Bold*/
+    text-decoration: none; /*Without line below*/
+    padding: 6px 15px;
+}
+
+footer > nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer > nav > a {
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+#Gridparent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: /*Especie de layout Uniforme*/
+    "Dogui1 Dogui1 Dogui2"
+    "Dogui1 Dogui1 Dogui3"
+    "Dogui4 . Dogui5"
+    "Dogui6 Dogui6 ."
+    "Dogui6 Dogui6 .";
+}
+
+#Gridparent > div:nth-child(1){
+    grid-area: Dogui1;
+}
+
+#Gridparent > div:nth-child(2){
+    grid-area: Dogui2;
+}
+
+#Gridparent > div:nth-child(3){
+    grid-area: Dogui3;
+}
+
+#Gridparent > div:nth-child(4){
+    grid-area: Dogui4;
+}
+
+#Gridparent > div:nth-child(5){
+    grid-area: Dogui5;
+}
+
+#Gridparent > div:nth-child(6){
+    grid-area: Dogui6;
+}
+
+#Gridparent > div{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+/*
+Nomenclatura
+- BEM
+Correct ways to name Class or id
+https://getbem.com/
+Block--Modifier--Value
+Ex:
+class="button--state-success"
+class="button--state-danger"
+
+Bootstrap
+https://getbootstrap.com/
+
+Tailwindcss
+https://tailwindcss.com/
+
+Skeleton
+http://getskeleton.com/
+
+Preprocessor
+Is a tool that help us and allow us to write pseudocode 
+receiving as a parameter the styles that will became to 
+CSS native.
+*/
+
+
+/*Introducir texto sobre una imagen y centrarlo*/
