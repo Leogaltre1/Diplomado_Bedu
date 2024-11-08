@@ -1,0 +1,12 @@
+
+======================================================================================================================================================
+Reto 02 - Quitando separación superior del título
+======================================================================================================================================================
+
+Objetivos
+Aprender a ocultar elementos no necesarios en ciertas resoluciones.
+
+Instrucciones
+Si nos fijamos en la página original, el título no queda tan seeparado del borde superior, esto se debe a la misma razón que el caso anterior, ¿cómo harías para mejorar su apariencia?
+
+======================================================================================================================================================

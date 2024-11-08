@@ -1,0 +1,114 @@
+
+======================================================================================================================================================
+Reto 01 - Cambiando la fuente de nuestro título principal
+======================================================================================================================================================
+
+Instrucciones
+El título de nuestra página está tomando demasiado espacio y no se ve bien, esto se debe a que tiene una fuente fija de 60px para el ejemplo que usamos en esta guía. 
+¿Cómo harías para cambiarle de fuente a una que funcione mejor?
+
+======================================================================================================================================================
+
+CSS Media Queries
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries
+
+Using media Queries
+https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries
+
+Tipos de Medios
+https://developer.mozilla.org/es/docs/Web/CSS/@media#media_types
+
+
+Size's standars
+
+1. Pantallas de teléfonos móviles:
+Resolución HD (720p): 1280 x 720 píxeles
+
+Común en teléfonos de gama baja y media.
+Resolución Full HD (1080p): 1920 x 1080 píxeles
+
+Muy común en teléfonos de gama media y alta.
+Resolución Quad HD (1440p): 2560 x 1440 píxeles
+
+Usado en algunos smartphones de gama alta, como el Galaxy S de Samsung.
+Resolución 4K (2160p): 3840 x 2160 píxeles
+
+Común en teléfonos de gama alta y para aquellos que ofrecen contenido en 4K.
+2. Pantallas de tabletas:
+Resolución 1280 x 800 píxeles:
+
+Común en tabletas de gama baja y media.
+Resolución Full HD (1080p): 1920 x 1080 píxeles
+
+Común en tabletas de gama media-alta.
+Resolución 2K (2048 x 1536 píxeles):
+
+Usado en dispositivos como el iPad Air (anteriores al iPad Pro).
+Resolución 4K (2160p): 3840 x 2160 píxeles
+
+Cada vez más común en tabletas de gama alta, especialmente para ver contenido en 4K.
+3. Pantallas de portátiles y laptops:
+Resolución HD (1366 x 768 píxeles):
+
+Común en laptops de gama baja.
+Resolución Full HD (1920 x 1080 píxeles):
+
+Estándar en la mayoría de laptops de gama media y alta.
+Resolución 4K (3840 x 2160 píxeles):
+
+Se encuentra en laptops de gama alta y para creadores de contenido, como algunas versiones de laptops de la serie Dell XPS o MacBook Pro.
+Resolución 2K (2560 x 1440 píxeles):
+
+A veces utilizada en pantallas de mayor calidad o ultradelgadas.
+4. Pantallas de monitores de escritorio:
+Resolución HD (1366 x 768 píxeles):
+
+Común en monitores económicos y de bajo rendimiento.
+Resolución Full HD (1920 x 1080 píxeles):
+
+Muy común en monitores estándar de 21 a 24 pulgadas.
+Resolución Quad HD (2560 x 1440 píxeles):
+
+Se encuentra en monitores de gama media, especialmente los de 27 pulgadas.
+Resolución 4K (3840 x 2160 píxeles):
+
+Popular en monitores profesionales y de alta gama (especialmente los de 27 pulgadas o más).
+Resolución 5K (5120 x 2880 píxeles):
+
+Se usa en monitores de gama alta, como el Apple Retina 5K.
+Resolución 8K (7680 x 4320 píxeles):
+
+Aún en una etapa más experimental, utilizado principalmente en pantallas profesionales de ultra alta definición.
+5. Pantallas de televisores:
+Resolución HD (720p): 1280 x 720 píxeles
+
+Común en televisores de gama baja.
+Resolución Full HD (1080p): 1920 x 1080 píxeles
+
+Es el estándar en la mayoría de televisores de gama media.
+Resolución 4K (2160p): 3840 x 2160 píxeles
+
+Se ha convertido en el estándar para televisores de gama alta, y se está volviendo más común en televisores de gama media.
+Resolución 8K (4320p): 7680 x 4320 píxeles
+
+Común en televisores de gama ultra-alta (de más de 70 pulgadas) y en modelos de lujo.
+Resumen de resoluciones comunes:
+HD: 1280 x 720 píxeles
+Full HD (1080p): 1920 x 1080 píxeles
+Quad HD (1440p): 2560 x 1440 píxeles
+2K: 2048 x 1536 píxeles (común en tabletas)
+4K (2160p): 3840 x 2160 píxeles
+5K: 5120 x 2880 píxeles
+8K: 7680 x 4320 píxeles
+
+-----------------------
+
+Tamaño de la fuente raiz
+
+2. Tamaños relativos a la fuente raíz (rem):
+Las unidades rem (root em) son relativas al tamaño de la fuente raíz (html). Si el tamaño de fuente raíz es 16px, entonces:
+
+1 rem = 16px
+2 rem = 32px
+0.5 rem = 8px
+1.25 rem = 20px
