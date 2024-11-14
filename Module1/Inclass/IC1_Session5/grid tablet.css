@@ -1,0 +1,41 @@
+/*Size 2*/
+header > div > h1 {
+    display: flex;
+    justify-content: center;
+}
+main > h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+header > div > h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+* {
+    background-color: orange;
+}
+h1 {
+    font-size: 26px; /*36px*/
+}
+h2 {
+    font-size: 16px; /*24px*/
+}
+h3 {
+    font-size: 12px; /*18.5px*/
+}
+a {
+    font-size: 10px; /*16px*/
+}
+
+#Gridparent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+#Gridparent > div:nth-child(3){
+    grid-area: 3 / 3 / 4 / 4;
+}

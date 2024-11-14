@@ -1,0 +1,16 @@
+/*Size 3*/
+* {
+    background-color: darkcyan;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18.5px;
+}
+a {
+    font-size: 16px;
+}

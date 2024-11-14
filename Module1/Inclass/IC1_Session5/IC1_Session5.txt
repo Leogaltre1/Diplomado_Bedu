@@ -1,0 +1,23 @@
+=====================================================================================================================================================
+In class 1 - Session 5
+=====================================================================================================================================================
+
+Ejercicio:
+Crear dos galerias de imagenes, una con flex y otra con grid, pueden ser de temas completamente separados o del mismo tema, la idea principal es que 
+cuando acceda desde la nav a cualquier de las opciones pueda verlas, además debe ser responsivo (nuestro diseño es mobile first).
+Debemos tener 12 imagenes por galería, como estamos enfocados a mobile first, debo ver mi galería en columna, pero en tablet debo poder ver 3 imagenes 
+por fila y en desktop 4 imagenes por fila (esto aplica para ambas galerias)
+nuestros brealpoints:
+mobile: maximo 640px
+tablet: máximo 940px
+desktop: 941px en adelante
+tomar en cuenta, para cada breakpoint, debe aparecer una imagen diferente, es decir, si tengo 12 perritos, en mobile debo ver 12 perritos, pero en 
+tablet debo ver los 11 perritos originales y 1 debe cambiar o otro perrito, y para desktop, debo ver los 11 perritos originales y 1 debe cambiar por otro perrito.
+Hacer uso de Reset.css para reiniciar los estilos del navegador.
+tener en cuenta que para los breakpoints:
+mobile: manejar un padding general de 4px
+tablet: 8px
+desktop: 16px
+esto solo para la galeria (editado) 
+
+=====================================================================================================================================================
