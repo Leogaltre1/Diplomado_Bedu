@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  background-color: darkcyan;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18.5px;
+}
+
+a {
+  font-size: 16px;
+}
+
+#Gridparent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+#Gridparent > div:nth-child(1) {
+  grid-area: 3/4/4/5;
+}
+
+/*# sourceMappingURL=grid%20desktop.css.map */

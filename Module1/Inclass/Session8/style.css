@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font: normal normal bold 22px / 40px Montserrat;
+  color: #67737a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+}
+
+#Gridparent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+
+img {
+    width: 98%;
+    height: 98%;
+}
+
+#Gridparent div:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del contenedor */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+}
+
+/* Animaciones para cada imagen al pasar el ratón */
+#Gridparent div:hover img {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen */
+    filter: brightness(1.2); /* Aumenta el brillo de la imagen */
+}
+
+/* Para la primera imagen */
+#Gridparent div:nth-child(1) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(1):hover img {
+    transform: rotate(10deg); /* Rotación de la imagen */
+}
+
+/* Para la segunda imagen */
+#Gridparent div:nth-child(2) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(2):hover img {
+    transform: rotate(-10deg); /* Rotación opuesta a la primera */
+}
+
+/* Para la tercera imagen */
+#Gridparent div:nth-child(3) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(3):hover img {
+    transform: translateX(10px); /* Mueve la imagen hacia la derecha */
+}
+
+/* Para la cuarta imagen */
+#Gridparent div:nth-child(4) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(4):hover img {
+    transform: translateY(-10px); /* Mueve la imagen hacia arriba */
+}
+
+/* Para la quinta imagen */
+#Gridparent div:nth-child(5) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(5):hover img {
+    filter: grayscale(100%); /* Pone la imagen en blanco y negro */
+}
+
+/* Para la sexta imagen */
+#Gridparent div:nth-child(6) img {
+    transition: transform 0.5s ease-in-out;
+}
+
+#Gridparent div:nth-child(6):hover img {
+    filter: sepia(100%); /* Aplica un filtro sepia */
+}
+

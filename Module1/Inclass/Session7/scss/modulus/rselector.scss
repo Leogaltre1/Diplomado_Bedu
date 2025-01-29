@@ -1,0 +1,15 @@
+// Repeated Selectors
+@mixin img-100 {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin img-80 {
+    width: 80%;
+    height: 80%;
+}
+
+@mixin img-50 {
+    width: 50%;
+    height: 50%;
+}

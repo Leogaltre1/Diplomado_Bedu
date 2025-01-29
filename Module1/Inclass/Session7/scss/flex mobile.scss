@@ -1,0 +1,37 @@
+@use 'modulus/variables' as mod-var;
+
+header {
+    margin: 1rem 0 0 0;
+}
+header > div {
+    > h1 {
+        display: flex;
+        justify-content: center;
+    }
+    > h3 {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem 0;
+    }
+}
+main > h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+* {
+    background-color: mod-var.$all-mobile-background-color;
+}
+h1 {
+    font-size: mod-var.$h1-mobile-font-size;
+}
+h2 {
+    font-size: mod-var.$h2-mobile-font-size;
+}
+h3 {
+    font-size: mod-var.$h3-mobile-font-size;
+}
+a {
+    font-size: mod-var.$a-mobile-font-size;
+}

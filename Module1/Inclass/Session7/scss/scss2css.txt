@@ -1,0 +1,41 @@
+
+=======================================================================================================================================================
+    The next commands are for convert scss files to css files
+=======================================================================================================================================================
+
+1. Simple way
+sass scss/main.scss main.css
+
+2. Using watch
+sass --watch scss/main.scss main.css
+
+Nota:
+Doble comilla para nombres con espacio
+"main mobile.scss"
+
+=======================================================================================================================================================
+    Uso de Bash para tirar comandos de sass
+=======================================================================================================================================================
+
+touch compile_sass.sh
+vi compile_sass.sh
+#!/bin/bash
+# Compilar los archivos SCSS a CSS
+
+echo "Compilando scss/main2.scss a main2.css"
+sass scss/main.scss main.css
+...
+
+> insert all the below section (Commands)
+
+chmod 777 compile_sass.sh
+
+> Execute
+./compile_sass.sh
+
+=======================================================================================================================================================
+    Commands 
+=======================================================================================================================================================
+
+sass scss/main.scss main.css
+sass scss/main.scss main.css

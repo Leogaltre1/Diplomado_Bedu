@@ -1,0 +1,14 @@
+@use 'modulus/variables' as mod-var;
+
+* {
+    background-color: mod-var.$all-desktop-background-color;
+}
+h1 {
+    font-size: mod-var.$h1-desktop-font-size;
+}
+h3 {
+    font-size: mod-var.$h3-desktop-font-size;
+}
+a {
+    font-size: mod-var.$a-desktop-font-size;
+}

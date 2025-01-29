@@ -1,0 +1,47 @@
+@use 'modulus/variables' as mod-var;
+
+header {
+    margin: 1rem 0 0 0;
+}
+header > div {
+    > h1 {
+        display: flex;
+        justify-content: center;
+    }
+    > h3 {
+        display: flex;
+        justify-content: center;
+        margin: 0 0 1rem 0;
+    }
+}
+main > h2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1rem 0;
+}
+
+* {
+    background-color: mod-var.$all-tablet-background-color;
+}
+h1 {
+    font-size: mod-var.$h1-tablet-font-size;
+}
+h2 {
+    font-size: mod-var.$h2-tablet-font-size;
+}
+h3 {
+    font-size: mod-var.$h3-tablet-font-size;
+}
+a {
+    font-size: mod-var.$a-tablet-font-size;
+}
+
+#Gridparent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+    > div:nth-child(3){
+        grid-area: 3 / 3 / 4 / 4;
+    }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: black;
+    color: white;
+}
+
+#header > nav{
+    display: flex;
+    justify-content: center;
+}
+
+#header > nav > a{
+    font-weight: 600; /*Bold*/
+    text-decoration: none; /*Without line below*/
+    padding: 6px 15px;
+}
+
+footer > nav {
+    display: flex;
+    justify-content: center;
+}
+
+footer > nav > a {
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+#Gridparent{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+}
+
+#Gridparent > div{
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+Nomenclatura
+- BEM
+Correct ways to name Class or id
+https://getbem.com/
+Block--Modifier--Value
+Ex:
+class="button--state-success"
+class="button--state-danger"
+
+Bootstrap
+https://getbootstrap.com/
+
+Tailwindcss
+https://tailwindcss.com/
+
+Skeleton
+http://getskeleton.com/
+
+Preprocessor
+Is a tool that help us and allow us to write pseudocode 
+receiving as a parameter the styles that will became to 
+CSS native.
+*/

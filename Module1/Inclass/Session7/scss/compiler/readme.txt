@@ -21,3 +21,13 @@ AppearALLscss2css.css
 Open git bash at ../compiler/scss2css.sh
 insert
 ./scss2css.sh
+
+=======================================================================================================================================================
+    Remember
+=======================================================================================================================================================
+
+The /directory compiler must be within the directory /scss
+/Session7/scss/compiler (main)
+
+And the "scss scripts" must be within the directory /scss
+

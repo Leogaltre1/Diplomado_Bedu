@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+header {
+  margin: 1rem 0 0 0;
+}
+
+header > div > h1 {
+  display: flex;
+  justify-content: center;
+}
+header > div > h3 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+}
+
+main > h2 {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1rem 0;
+}
+
+* {
+  background-color: black;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 9px;
+}
+
+a {
+  font-size: 7px;
+}
+
+/*# sourceMappingURL=flex%20mobile.css.map */

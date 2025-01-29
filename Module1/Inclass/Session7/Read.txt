@@ -1,0 +1,35 @@
+Ejecutar el transformador de scss a css
+
+Admin@DESKTOP-RJ34VEQ MINGW64 /c/@ Mis Archivos/Aprendizaje Autodidacta/Diplomado Java/Bedu/Module1/Inclass/Session7/scss/compiler (main)
+$ ./scss2css.sh
+
+======================================
+    Executing commands_sass.py
+======================================
+
+You are will compile the next scss to css
+Directory Path:
+ ['compiler', 'flex desktop.scss', 'flex mobile.scss', 'flex tablet.scss', 'flex-example.scss', 'grid desktop.scss', 'grid mobile.scss', 'grid tablet.scss', 'grid-example.scss', 'main desktop.scss', 'main mobile.scss', 'main tablet.scss', 'main.scss', 'modulus', 'scss2css.txt']
+
+File 'compiler_scss2css.sh' generated successfully.
+Wait 4 seconds ...
+
+======================================
+    Executing compiler_scss2css.sh
+======================================
+        ==== scss to css ====
+Compilando sass "../flex desktop.scss" "../../flex desktop.css"
+Compilando sass "../flex mobile.scss" "../../flex mobile.css"
+Compilando sass "../flex tablet.scss" "../../flex tablet.css"
+Compilando sass "../flex-example.scss" "../../flex-example.css"
+Compilando sass "../grid desktop.scss" "../../grid desktop.css"
+Compilando sass "../grid mobile.scss" "../../grid mobile.css"
+Compilando sass "../grid tablet.scss" "../../grid tablet.css"
+Compilando sass "../grid-example.scss" "../../grid-example.css"
+Compilando sass "../main desktop.scss" "../../main desktop.css"
+Compilando sass "../main mobile.scss" "../../main mobile.css"
+Compilando sass "../main tablet.scss" "../../main tablet.css"
+Compilando sass "../main.scss" "../../main.css"
+
+   ====    DONE Successfully ====
+Do not forget you are La mera V

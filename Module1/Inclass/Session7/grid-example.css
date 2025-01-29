@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  background-color: black;
+  color: white;
+}
+
+#header > nav {
+  display: flex;
+  justify-content: center;
+}
+#header > nav > a {
+  font-weight: 600; /*Bold*/
+  text-decoration: none; /*Without line below*/
+  padding: 6px 15px;
+}
+
+footer > nav {
+  display: flex;
+  justify-content: center;
+}
+footer > nav > a {
+  text-decoration: none;
+  padding: 6px 15px;
+}
+
+#Gridparent {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto;
+}
+#Gridparent > div {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+}
+
+/*
+
+Antes use 
+.img {
+  @extend mod-sel.img-100;
+}
+
+Tomar en cuenta lo siguiente
+Si quieres usar @use para importar archivos SCSS que contienen selectores, 
+y no variables, pero deseas seguir la misma sintaxis de @use para evitar 
+el uso de @import, puedes hacerlo de la siguiente manera:
+
+Objetivo
+En lugar de importar variables (como lo harías con @use 'modulus/variables.scss' as mod-var;), 
+puedes organizar y reutilizar tus selectores y reglas CSS en un archivo SCSS modular y luego 
+importarlas con @use.
+
+// modulus/selectors.scss
+
+--- Aquí definimos los selectores comunes
+.img-50 {
+  width: 50%;
+  height: 50%;
+}
+
+.button-primary {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+// main.scss
+
+@use 'modulus/selectors' as sel;
+
+.container {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+--- Usamos el selector .img-50 que fue importado
+.img-container {
+  @extend sel.img-50;
+}
+
+--- Usamos el selector .button-primary que fue importado
+.button {
+  @extend sel.button-primary;
+}
+
+
+La directiva @use con la opción as es la forma recomendada y estándar de importar archivos 
+SCSS en todas las versiones de Sass a partir de la versión 1.23.0. La directiva @import 
+está obsoleta y se ha recomendado su reemplazo por @use desde esta versión
+
+Mi version
+$ sass --version
+1.81.0 compiled with dart2js 3.5.4
+*/
+
+/*# sourceMappingURL=grid-example.css.map */
